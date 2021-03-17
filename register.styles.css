@@ -1,0 +1,35 @@
+#register{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+}
+
+#register > div{
+    padding-right: 30px;
+}
+#register form *{
+    width: 100%;
+}
+
+#register form input,select,textarea {
+    margin-bottom: 20px;
+}
+
+#register button{
+    border: none;
+    padding: 10px;
+    background-color: gray;
+    color: white;
+    border-radius: 10px;
+    transition: 0.2s
+}
+
+#register button:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    ;
+}
+
+#register button:focus{
+    outline: none;
+}

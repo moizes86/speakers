@@ -1,0 +1,21 @@
+#schedule {
+  padding-top: 40px;
+}
+
+#schedule table tr td:first-child {
+  padding-right: 30px;
+  text-align: right;
+  vertical-align: baseline;
+}
+
+#schedule table tr td:last-child {
+  display: flex;
+  padding: 20px;
+}
+
+#schedule table tr:nth-child(even) td:last-child {
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  border-collapse: collapse;
+  opacity: 0.5;
+}

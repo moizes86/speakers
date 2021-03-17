@@ -1,0 +1,10 @@
+#venue{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#venue >div:first-child{
+    max-width: 25%;
+    padding-right: 40px;
+}
